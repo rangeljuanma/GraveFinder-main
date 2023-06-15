@@ -6,7 +6,39 @@ body{
 html {
     scroll-behavior: smooth;
 }
-
+.nav-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    height: 46px;
+}
+.a-container{
+    float: left;
+    display: flex;
+}
+.logo-container{
+    float: right;
+    display: flex;
+}
+.img-logo{
+    height: 46px;
+    width: 60px;
+}
+.a-menu{
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.a-menu:hover {
+    background-color: #eee;
+    font-weight: bold;
+  }
 .about{
     padding-bottom: 100px;
     background-color: black;

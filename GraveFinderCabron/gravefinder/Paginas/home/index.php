@@ -14,7 +14,7 @@
     <!-- Navbar -->
     <nav class="nav-container">
       <div class="a-container">
-        <a href="#" class="a-menu">Inicio</a>
+        <a href="index.php" class="a-menu">Inicio</a>
         <a href="../buscador/index.php" class="a-menu">Elegir Cementerio</a>
         <a href="../Contacto/index.html" class="a-menu">Contacto</a>
         <a href="../Tarjeta/index.html" class="a-menu">Tarjeta</a>
