@@ -4,7 +4,50 @@
     --letraCambio: #000015;
     --cambio: #9d9b9d;
     --letra: #4d534d;
+	--menu: #333;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    height: 46px;
+}
+.a-container{
+    float: left;
+    display: flex;
+}
+.logo-container{
+    float: right;
+    display: flex;
+}
+.img-logo{
+    height: 46px;
+    width: 60px;
+}
+.a-menu{
+    display: block;
+    color: --menu;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.a-menu:hover {
+    background-color: #eee;
+    font-weight: bold;
+  }
 
 
 body{

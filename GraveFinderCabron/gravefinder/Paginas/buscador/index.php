@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscador</title>
-    <link rel="stylesheet" href="./css/busqueda.css">
+    <link rel="stylesheet" href="css/busqueda.css">
 </head>
 <body>
-    
+<header>
+    <!-- Navbar -->
+    <nav class="nav-container">
+      <div class="a-container">
+        <a href="../home/index.php" class="a-menu">Inicio</a>
+        <a href="../buscador/index.php" class="a-menu">Elegir Cementerio</a>
+        <a href="../Contacto/index.html" class="a-menu">Contacto</a>
+        <a href="../Tarjeta/index.html" class="a-menu">Tarjeta</a>
+      </div>
+      <div class="logo-container"><img class="img-logo" src="img/GRAVE.png" alt="logo"></div>
+    </nav>    
+  </header>
     <form action="difunto.php" method="POST" id="frmSearch">
         <div class="container">
             <div class="field-column">
