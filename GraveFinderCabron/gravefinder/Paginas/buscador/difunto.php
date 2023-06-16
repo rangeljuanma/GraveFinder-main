@@ -48,7 +48,7 @@
                                     for($i = 0; $i<$res->num_rows; $i++){
                                         $reg = $res->fetch_assoc();?>
                                         <tr>
-                                            <td><button onclick="location.href = '../arbol/arbol.php'" class="busqueda" name="nom" ><?php echo $reg['NombreCompleto'];?></button></td>
+                                            <td><button onclick="location.href = '../arbol/arbol.php'" class="busqueda" name="nom"><?php echo $reg['NombreCompleto'];?></button></td>
                                             <td class="contenido"><?php echo $reg['num_tumba'];?></td>
                                             <td class="contenido"><?php echo $reg['desc_zona'];?></td>
                                         </tr>

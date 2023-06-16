@@ -13,8 +13,8 @@
         $user ="root";
         $pass ="";
         $bbdd ="gravefinder";
-        $nombre = $_POST["nom"];
-        $sql = "select * from difunto where NombreCompleto like '$nom'"
+        $nom = $_POST["nombre"];
+        $sql = "select * from difunto where NombreCompleto like '$nom'";
 
         $conn = new mysqli($serv, $user, $pass, $bbdd);
 
