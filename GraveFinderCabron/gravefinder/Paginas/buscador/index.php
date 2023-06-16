@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/busqueda.css">
 </head>
 <body>
-<header>
+
     <!-- Navbar -->
     <nav class="nav-container">
       <div class="a-container">
@@ -19,7 +19,6 @@
       </div>
       <div class="logo-container"><img class="img-logo" src="img/GRAVE.png" alt="logo"></div>
     </nav>    
-  </header>
     <form action="difunto.php" method="POST" id="frmSearch">
         <div class="container">
             <div class="field-column">
